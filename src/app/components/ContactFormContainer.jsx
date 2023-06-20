@@ -14,7 +14,7 @@ export default function ContactFormContainer() {
       className={`mx-64 flex flex-col gap-8 items-center opacity-0 translate-y-10
       ${inView && "fadeUpIn"}`}
     >
-      <h2 className="text-3xl">Let's work together!</h2>
+      <h2 className="text-3xl">Let&apos;s work together!</h2>
       <ContactForm />
     </section>
   );
